@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicondesign.png"
+      type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Praveen kumar | Frontend Developer
+    </title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Praveen</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a href="about.html" class="nav__link">About Me</a>
+            </li> -->
+            <li class="nav__item">
+              <!-- <a href="contact.html" class="button">Contact Me</a> -->
+              <a
+              href="about.html" 
+              class="home__button button"
+              >About Me</a
+            >
+            </li>
+          </ul>
+
+          <!-------Close button------------->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!---############-->
+        <div class="nav__actions">
+          <!--theme button-->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!--toggle button-->
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section">
+        <div class="home__rectangle"></div>
+        <div class="home__container container grid">
+          <div class="home__perfil perfil">
+            <div class="perfil__content">
+              <img
+                src="assets/img/New/Profile-IMG-2.jpg"
+                alt="image"
+                class="perfil__img" />
+            </div>
+          </div>
+
+          <div class="home__content grid">
+            <div class="home__data grid">
+              <h1 class="home__name">Praveen</h1>
+              <h2 class="home__profession">Frontend Developer & Designer</h2>
+              <p>I create elegantly simple designs and code, and I'm passionate about my work.
+              </p>
+
+              <div class="home__social">
+                <a
+                  href="https://github.com/Praveenkumar625"
+                  target="_blank"
+                  class="home__social-link">
+                  <i class="ri-github-fill"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/praveenkumar625/"
+                  target="_blank"
+                  class="home__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <!-- <a
+                href="https://www.linkedin.com/in/praveenkumar625/"
+                target="_blank"
+                class="home__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a> -->
+  
+              <a
+                href="https://twitter.com/Praveenkumarpk_?s=09&fbclid=PAAaYpRaY0EO1kVa54RsbDN1Rn2xcmqkbXVEPMkZN1lS8uk6gu2iN63dY_tY0"
+                target="_blank"
+                class="home__social-link">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+
+              </div>
+            </div>
+            <a
+              href="assets/pdf/Praveen-Resume.pdf"
+              download=""
+              class="home__button button"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+        <!--==================== WORK ====================-->
+        <section class="work section">
+          <h2 class="section__title">
+            My Recent Work
+          </h2>
+          
+          <p class="section__discription">Here are a few past design projects I've worked on. 
+            <!-- <a href="contact.html">Email me.</a> -->
+          </p>
+  
+          <div class="work__container work__page container grid">
+            <article class="work__card">
+              <a href="https://chessboard-highlighter.vercel.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/chess.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">Chessboard Highlighter</h2>
+              <span class="work__subtitle">highlights squares based on the movement pattern of a bishop</span>
+            </article>
+  
+            <article class="work__card">
+              <a href="https://vertical-slide.vercel.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/slide.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">KarthikIyer.art</h2>
+              <span class="work__subtitle">Portfolio of a creative web designer</span>
+            </article>
+  
+            <article class="work__card">
+              <a href="https://live-weatherupdates.netlify.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/weather.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">Live Weather Updates</h2>
+              <span class="work__subtitle">Real-time weather updates for any location</span>
+            </article>
+
+            <article class="work__card">
+              <a href="https://text-to-speech-convert.vercel.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/Texttospeach.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">Text To Speech</h2>
+              <span class="work__subtitle">Converts text into natural-sounding speech</span>
+            </article>
+
+            <article class="work__card">
+              <a href="https://qr-generator-flame.vercel.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/qr.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">QR Code Generator</h2>
+              <span class="work__subtitle">Generate custom QR codes easily</span>
+            </article>
+
+            <article class="work__card">
+              <a href="https://star-wars-praveenkumar.vercel.app/" target="_blank" class="work__link">
+                <img src="assets/img/Work/sw.png" alt="" class="work__img" />
+                <i class="ri-arrow-right-circle-line work__icon"></i>
+              </a>
+              <h2 class="work__title">Star Wars Planets Directory</h2>
+              <span class="work__subtitle"> Explore Star Wars planets and their details</span>
+            </article>
+
+          </div>
+        </section>
+
+
+      <!--==================== SERVICES ====================-->
+      <!-- <section class="services section">
+        <h2 class="section__title">
+          The services <br />
+          i offer
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-code-s-slash-line services__icon"></i>
+            <h2 class="services__title">Web developer</h2>
+            <p class="services__description">
+              beautiful and eligant Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Assumenda illo dolores quia ipsa, ducimus nulla
+              corporis odit, nesciunt praesentium iusto officiis atque beatae!
+              Velit, dolor. Nemo corporis delectus saepe minus!
+            </p>
+            <button class="services__button button">Knoe more</button>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h2 class="services__modal-title">Web developer</h2>
+
+                <ul class="services__modal-list grid">
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-pen-nib-line services__icon"></i>
+            <h2 class="services__title">Web developer</h2>
+            <p class="services__description">
+              beautiful and eligant Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Assumenda illo dolores quia ipsa, ducimus nulla
+              corporis odit, nesciunt praesentium iusto officiis atque beatae!
+              Velit, dolor. Nemo corporis delectus saepe minus!
+            </p>
+
+            <button class="services__button button">Knoe more</button>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h2 class="services__modal-title">Web developer</h2>
+
+                <ul class="services__modal-list grid">
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-layout-2-line services__icon"></i>
+            <h2 class="services__title">Web developer</h2>
+            <p class="services__description">
+              beautiful and eligant Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Assumenda illo dolores quia ipsa, ducimus nulla
+              corporis odit, nesciunt praesentium iusto officiis atque beatae!
+              Velit, dolor. Nemo corporis delectus saepe minus!
+            </p>
+
+            <button class="services__button button">Knoe more</button>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h2 class="services__modal-title">Web developer</h2>
+
+                <ul class="services__modal-list grid">
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+
+                  <li class="services__modal-item">create professional</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section> -->
+
+    
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- <section class="testimonial section">
+        <h2 class="section__title">
+          People I've worked with <br> have said some nice things...
+        </h2>
+
+        <div class="testimonial__container container">
+          <div class="testimonial__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="testimonial__card swiper-slide">
+                <div class="testimonial__border">
+                  <img
+                    src="assets/img/testimonial-1.png"
+                    alt=""
+                    class="testimonal__img" />
+                </div>
+
+                <h2 class="testimonial__name">Jes</h2>
+                <p class="testimonial__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat voluptates officiis ab, minima aliquid ut fuga
+                  doloribus dolorem voluptatibus sint nulla possimus deserunt
+                  vel reprehenderit animi, deleniti earum ipsam eligendi.
+                </p>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <div class="testimonial__border">
+                  <img
+                    src="assets/img/testimonial-2.png"
+                    alt=""
+                    class="testimonal__img" />
+                </div>
+
+                <h2 class="testimonial__name">Jes</h2>
+                <p class="testimonial__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat voluptates officiis ab, minima aliquid ut fuga
+                  doloribus dolorem voluptatibus sint nulla possimus deserunt
+                  vel reprehenderit animi, deleniti earum ipsam eligendi.
+                </p>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <div class="testimonial__border">
+                  <img
+                    src="assets/img/testimonial-3.png"
+                    alt=""
+                    class="testimonal__img" />
+                </div>
+
+                <h2 class="testimonial__name">Jes</h2>
+                <p class="testimonial__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat voluptates officiis ab, minima aliquid ut fuga
+                  doloribus dolorem voluptatibus sint nulla possimus deserunt
+                  vel reprehenderit animi, deleniti earum ipsam eligendi.
+                </p>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <div class="testimonial__border">
+                  <img
+                    src="assets/img/testimonial-4.png"
+                    alt=""
+                    class="testimonal__img" />
+                </div>
+
+                <h2 class="testimonial__name">Jes</h2>
+                <p class="testimonial__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat voluptates officiis ab, minima aliquid ut fuga
+                  doloribus dolorem voluptatibus sint nulla possimus deserunt
+                  vel reprehenderit animi, deleniti earum ipsam eligendi.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section> -->
+
+      <!--==================== CONTACT ====================-->
+      <!-- <section class="contact section">
+        <div class="contact__container container grid">
+          <h2 class="section__title">
+            lets talk <br />
+            about your project
+          </h2>
+          <a href="contact.html" class="contact__button button">Contact Me</a>
+          <a href="contact.html" class="contact__button button">Contact Me</a>
+        </div>
+      </section> -->
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <a href="index.html" class="footer__logo"><img src="assets/img/footer-bg/file.png" style="width: 40%;" alt=""></a>
+
+          <ul class="footer__links">
+            <li>
+              <a href="about.html" class="footer__link">About Me</a>
+            </li>
+
+            <!-- <li>
+              <a href="work.html" class="footer__link">Portfolio</a>
+            </li> -->
+
+            <!-- <li>
+              <a href="contact.html" class="footer__link">Contact Me</a>
+            </li> -->
+          </ul>
+
+          <div class="footer__social">
+
+            <a
+            href="https://github.com/Praveenkumar625"
+            target="_blank"
+            class="footer__social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+
+            <a
+            href="https://www.linkedin.com/in/praveenkumar625/"
+            target="_blank"
+            class="footer__social-link">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+
+
+            <a
+              href="https://twitter.com/Praveenkumarpk_?s=09&fbclid=PAAaYpRaY0EO1kVa54RsbDN1Rn2xcmqkbXVEPMkZN1lS8uk6gu2iN63dY_tY0"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+
+          </div>
+        </div>
+        <span class="footer__copy">
+          Handcrafted by me  &#169; twentytwentyfour
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== INDEX JS ===============-->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
